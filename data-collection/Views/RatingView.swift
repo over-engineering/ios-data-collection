@@ -48,6 +48,10 @@ class RatingView: UIStackView {
         label.text = text
     }
     
+    func setRating(rating: Double) {
+        cosmosView.rating = rating
+    }
+    
     required init(coder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }

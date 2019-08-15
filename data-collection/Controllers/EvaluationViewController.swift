@@ -50,4 +50,14 @@ class EvaluationViewController: UIViewController {
             ratingView.heightAnchor.constraint(equalToConstant: 50).isActive = true
         }
     }
+    
+    @IBAction func resetButtonTapped(_ sender: UIButton) {
+        for subView in preferenceView.subviews {
+            
+            if let rv = subView as? RatingView {
+                rv.setRating(rating: 0.0)
+            }
+            
+        }
+    }
 }

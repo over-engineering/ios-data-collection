@@ -73,6 +73,9 @@
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hWA-JK-42I">
                                         <rect key="frame" x="124.5" y="0.0" width="125" height="27"/>
                                         <state key="normal" image="Navigation_Refresh"/>
+                                        <connections>
+                                            <action selector="resetButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="H8B-Ud-3ZJ"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CN5-WB-a0t">
                                         <rect key="frame" x="249.5" y="0.0" width="124.5" height="27"/>
