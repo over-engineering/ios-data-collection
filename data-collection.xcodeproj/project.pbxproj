@@ -8,23 +8,29 @@
 
 /* Begin PBXBuildFile section */
 		0737B8AE23059A35009D412E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0737B8AD23059A35009D412E /* AppDelegate.swift */; };
-		0737B8B023059A35009D412E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0737B8AF23059A35009D412E /* ViewController.swift */; };
+		0737B8B023059A35009D412E /* EvaluationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0737B8AF23059A35009D412E /* EvaluationViewController.swift */; };
 		0737B8B323059A35009D412E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0737B8B123059A35009D412E /* Main.storyboard */; };
 		0737B8B523059A36009D412E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0737B8B423059A36009D412E /* Assets.xcassets */; };
 		0737B8B823059A36009D412E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0737B8B623059A36009D412E /* LaunchScreen.storyboard */; };
 		07B6038F2305C89E002F3978 /* RatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07B6038E2305C89E002F3978 /* RatingView.swift */; };
+		07B603912305D676002F3978 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07B603902305D676002F3978 /* CameraViewController.swift */; };
+		07B603932305E12B002F3978 /* PreviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07B603922305E12B002F3978 /* PreviewViewController.swift */; };
+		07B603952305E3A8002F3978 /* CameraViewController+AVCapturePhotoCaptureDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07B603942305E3A8002F3978 /* CameraViewController+AVCapturePhotoCaptureDelegate.swift */; };
 		A787889CD4EC9C24DACB7DBB /* Pods_data_collection.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2ACB0ABF77420B3D92636E86 /* Pods_data_collection.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0737B8AA23059A35009D412E /* data-collection.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "data-collection.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0737B8AD23059A35009D412E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0737B8AF23059A35009D412E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0737B8AF23059A35009D412E /* EvaluationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EvaluationViewController.swift; sourceTree = "<group>"; };
 		0737B8B223059A35009D412E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0737B8B423059A36009D412E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0737B8B723059A36009D412E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0737B8B923059A36009D412E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		07B6038E2305C89E002F3978 /* RatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingView.swift; sourceTree = "<group>"; };
+		07B603902305D676002F3978 /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		07B603922305E12B002F3978 /* PreviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewViewController.swift; sourceTree = "<group>"; };
+		07B603942305E3A8002F3978 /* CameraViewController+AVCapturePhotoCaptureDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CameraViewController+AVCapturePhotoCaptureDelegate.swift"; sourceTree = "<group>"; };
 		1AB19BA5B6998428E4E21D7C /* Pods-data-collection.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-data-collection.debug.xcconfig"; path = "Target Support Files/Pods-data-collection/Pods-data-collection.debug.xcconfig"; sourceTree = "<group>"; };
 		2ACB0ABF77420B3D92636E86 /* Pods_data_collection.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_data_collection.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		938C46402661CECA2746EF3F /* Pods-data-collection.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-data-collection.release.xcconfig"; path = "Target Support Files/Pods-data-collection/Pods-data-collection.release.xcconfig"; sourceTree = "<group>"; };
@@ -77,7 +83,10 @@
 		07B6038C2305C4F0002F3978 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				0737B8AF23059A35009D412E /* ViewController.swift */,
+				0737B8AF23059A35009D412E /* EvaluationViewController.swift */,
+				07B603902305D676002F3978 /* CameraViewController.swift */,
+				07B603942305E3A8002F3978 /* CameraViewController+AVCapturePhotoCaptureDelegate.swift */,
+				07B603922305E12B002F3978 /* PreviewViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -223,7 +232,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				07B6038F2305C89E002F3978 /* RatingView.swift in Sources */,
-				0737B8B023059A35009D412E /* ViewController.swift in Sources */,
+				07B603912305D676002F3978 /* CameraViewController.swift in Sources */,
+				07B603952305E3A8002F3978 /* CameraViewController+AVCapturePhotoCaptureDelegate.swift in Sources */,
+				0737B8B023059A35009D412E /* EvaluationViewController.swift in Sources */,
+				07B603932305E12B002F3978 /* PreviewViewController.swift in Sources */,
 				0737B8AE23059A35009D412E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
